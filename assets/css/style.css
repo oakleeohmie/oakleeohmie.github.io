@@ -1,4 +1,61 @@
 .name   {
     background-color: #4aaaa5;
     color: white;
+    width: 33.3%;
+    height: 50px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#top {
+    background-color: #cccccc;
+    border: #ffffff;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    margin-bottom: 20px;
+    top: 0;
+}
+.directory {
+    background-color: white;
+    color: grey;
+    width: 70%;
+    float: left;
+}
+html {
+    background-color: #cccccc;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#main {
+    height: 200px;
+    width: 300px;
+}
+#container {
+    background-color: white;
+    text-align: center;
+    width: 960px;
+    
+}
+p {
+    float: left;
+}
+#top{
+    border: black;
+}
+body {
+    background-color: white;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #666666;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+}
+#clearfix {
+    overflow: auto;
 }

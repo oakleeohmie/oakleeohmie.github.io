@@ -7,30 +7,41 @@
     initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Student Bio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <div class="name">
-            Oaklee Ohmie
-        </div>
-        <div class="directory">
-            About | Portfolio | Contact
+        <div class="topnav">
+            <h1 id="name-nav">Oaklee Ohmie </h1>
+            <ul id="direct">
+                <li id="right">
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li id="left">
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
         </div>
     </header>
-    <h1>Contact</h1>
-    <div class="container">
-        <form action="action_page.php">
-
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name..">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your email..">
-
-            <label for="message">Message</label>
-            <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
+    <section class="secmain">
+        <div class="info">
+            <h2 class="title">Contact</h2>
+            <div class="form"></div>
+            <p class="namefield">Name</p>
+            <input class="input in-name" type="text" name="name" placeholder="your name here..">
+            <p class="emailfield">Email</p>
+            <input class="input in-email" type="text" name="name" placeholder="example@example.com">
+            <p class="messagefield">Message</p>
+            <textarea class="messagefield" placeholder="Leave a message"></textarea> <br>
+            <button class="button" type="submit">Submit</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="copyright"> ©copyright</p>
+    </footer>
 </body>
